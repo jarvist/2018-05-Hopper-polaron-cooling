@@ -1,0 +1,14 @@
+# GNUPlot file to generate
+
+set boxwidth 0.5
+set style fill transparent solid 0.5
+
+p "ExperimentalComparison.dat" u 0:(1/$2):xtic(1) w boxes axes x1y1, \
+   '' u 0:3 axes x1y2 
+
+set y2range [0:0.3]
+set yrange [0:0.007]
+
+prefix="ExperimentalComparison"
+load "gnuplot-render.gpt"
+
