@@ -1,7 +1,19 @@
 # Extracted by hand from the reams of output data 
-FAPbI3  303.5  0.1369 
-FAPbBr3  
-MAPbBr3  339.5  0.0799
-MAPbI3  347.27  0.1349
-CsPbI3  204.7  0.0826
+FAPbI3  303.5  0.1369 1.69601e-9
+FAPbBr3  375.2551389127629 0.08864 1.01059e-9
+MAPbBr3  339.5  0.0799  1.94513e-9
+MAPbI3  347.27  0.1349  2.34195e-9
+CsPbI3  204.7  0.0826  2.66767e-9
+
+# > julia ArtemHopper.jl | grep Material
+
+# Material: FAPbI α: Any[2.17511] Scatterτ: Any[0.158001, 0.136908] rfsi: Any[2.28905e-9, 1.69601e-9]
+# Material: FAPbBr
+# Material: FAPbBr α: Any[4.06684] Scatterτ: Any[0.0953105, 0.0886448] rfsi: Any[1.36591e-9, 1.01059e-9]
+# Material: MAPbBr
+# Material: MAPbBr α: Any[2.69096] Scatterτ: Any[0.0976129, 0.0799753] rfsi: Any[2.62333e-9, 1.94513e-9]
+# Material: MAPbI
+# Material: MAPbI α: Any[1.72832] Scatterτ: Any[0.166829, 0.134954] rfsi: Any[3.16251e-9, 2.34195e-9]
+# Material: CsPbBr
+# Material: CsPbBr α: Any[2.10763] Scatterτ: Any[0.110422, 0.0826258] rfsi: Any[3.60027e-9, 2.66767e-9]
 

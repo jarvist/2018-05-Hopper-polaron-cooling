@@ -64,7 +64,7 @@ set pointintervalbox 1.75
 
 unset key # key!
 
-set terminal pngcairo size 1024,768 enhanced font 'Helvetica,24'
+set terminal pngcairo size 1024,768 enhanced font 'Helvetica,18'
 set output prefix.'.png'
 set pointsize 5.0
 replot
