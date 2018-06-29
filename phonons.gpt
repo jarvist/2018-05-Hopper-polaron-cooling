@@ -1,0 +1,93 @@
+# phonons.dat are
+# mode_num freq(cm-1) ir-activity(osc strength?)
+
+Nphonons=5
+meVincm=0.12398 # 0.12398 meV in each cm^-1
+
+
+set key autotitle columnheader
+
+set title "MAPbBr3 vs. CsPbBr3 phonon DoS from DFPT"
+
+file="phonons.dat"
+
+# From http://gnuplot.sourceforge.net/demo/violinplot.html
+set linetype  9 lc "#80bbaa44" ps 0.5 pt 5
+set linetype 10 lc "#8033bbbb" ps 0.5 pt 5
+
+# Jarv's ~PRL OK colours
+set linetype 9 pi -1 pt 1 lc rgb '#80E41A1C' dt solid # red
+set linetype 10 pi -1 pt 7 lc rgb '#80377EB8' dt solid # blue
+
+set style data filledcurves below
+
+#plot for [i=0:Nphonons-1] "phonons.dat" using ($2*meVincm):3 index i
+#plot for [i=0:Nphonons-1] "phonons.dat" using 2:3 index i with impulses
+#plot for [i=0:Nphonons-1] "phonons.dat" using 2:(1.0) index i with impulses
+
+set xrange [0:50]
+set yrange [-1:1]
+
+set xlabel "Phonon energy (meV)"
+set ylabel "Phonon pDoS (1/meV)"
+
+
+# Just MA and Cs PbBr3 (datasets 0 and 2)
+plot file index 0 using ($2*meVincm):(0.9) with impulses lt 9 lw 3,\
+     '' index 2  using ($2*meVincm):(-0.9) with impulses lt 10 lw 3 ,\
+     '' index 0 using ($2*meVincm):(1.0)  smooth kdensity bandwidth 5.0 with filledcurves y=0 lt 9,\
+     '' index 2 using ($2*meVincm):(-1.0) smooth kdensity bandwidth 5.0 with filledcurves y=0 lt 10  
+# kdensity + impulses on x axis. a bit busy
+
+prefix="phonons"
+load "gnuplot-render.gpt"
+
+pause -1
+
+set xrange [0:350]
+
+
+set samples 1000
+set table $k1
+plot file index 0 using  ($2*meVincm):(1.0) smooth kdensity bandwidth 5. with filledcurves above y lt 9
+set table $k2
+plot file index 2 using  ($2*meVincm):(1.0) smooth kdensity bandwidth 5. with filledcurves above y lt 10
+unset table
+
+unset key
+
+set border 2
+#unset margins 
+unset xtics
+#set xtics nomirror rangelimited
+set xrange [0:2]
+
+set ytics nomirror rangelimited
+set yrange [0:50]
+
+set ylabel "Phonon energy (meV)"
+set xlabel "Phonon pDoS (1/meV)"
+
+plot $k1 using (1+$2):1 with filledcurve x=1 lt 9,\
+     '' using (1-$2):1 with filledcurve x=1 lt 9, \
+     $k2 using (3+$2):1 with filledcurve x=3 lt 10, \
+     '' using (3-$2):1 with filledcurve x=3 lt 10
+
+pause -1
+
+plot $k1 using (1-$2):1 with filledcurve x=1 lt 9,\
+     $k2 using (1+$2):1 with filledcurve x=1 lt 10
+
+pause -1
+
+#replot file index 0 lt 9 using (0.9):($2*meVincm) w points, \
+#     file index 2 lt 10 using (1.1):($2*meVincm) w points
+
+
+
+#pause -1 # pause until user input
+#prefix="phonons"
+#load "gnuplot-render.gpt"
+
+
+
