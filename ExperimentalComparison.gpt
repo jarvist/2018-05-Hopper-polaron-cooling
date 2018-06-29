@@ -12,7 +12,8 @@ set ylabel "Inverse specific heat capacity"
 set y2label "Polaron scattering time (ps)"
 
 p "ExperimentalComparison.dat" u 0:(1000.0/$2):xtic(1) w boxes axes x1y1, \
-   '' u 0:3 axes x1y2 
+   '' u 0:3 axes x1y2,\
+   '' u 0:4 axes x1y2
 
 prefix="ExperimentalComparison"
 load "gnuplot-render.gpt"
