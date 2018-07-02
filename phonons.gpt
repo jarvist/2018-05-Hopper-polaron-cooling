@@ -44,6 +44,15 @@ load "gnuplot-render.gpt"
 
 pause -1
 
+# Positive MA and Cs PbBr3 (datasets 3 and 2)
+set yrange[0:1]
+plot file index 2 using ($2*meVincm):(0.9) with impulses lt 9 lw 3,\
+     '' index 3  using ($2*meVincm):(0.9) with impulses lt 10 lw 3 ,\
+     '' index 2 using ($2*meVincm):(1.0)  smooth kdensity bandwidth 5.0 with filledcurves y=0 lt 9,\
+     '' index 3 using ($2*meVincm):(1.0) smooth kdensity bandwidth 5.0 with filledcurves y=0 lt 10  
+prefix="phonons-positive"
+load "gnuplot-render.gpt"
+
 set xrange [0:50]
 
 set samples 1000
