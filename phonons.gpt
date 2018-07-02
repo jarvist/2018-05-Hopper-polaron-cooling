@@ -32,11 +32,11 @@ set xlabel "Phonon energy (meV)"
 set ylabel "Phonon pDoS (1/meV)"
 
 
-# Just MA and Cs PbBr3 (datasets 0 and 2)
-plot file index 0 using ($2*meVincm):(0.9) with impulses lt 9 lw 3,\
-     '' index 2  using ($2*meVincm):(-0.9) with impulses lt 10 lw 3 ,\
-     '' index 0 using ($2*meVincm):(1.0)  smooth kdensity bandwidth 5.0 with filledcurves y=0 lt 9,\
-     '' index 2 using ($2*meVincm):(-1.0) smooth kdensity bandwidth 5.0 with filledcurves y=0 lt 10  
+# Just MA and Cs PbBr3 (datasets 3 and 2)
+plot file index 2 using ($2*meVincm):(-0.9) with impulses lt 9 lw 3,\
+     '' index 3  using ($2*meVincm):(0.9) with impulses lt 10 lw 3 ,\
+     '' index 2 using ($2*meVincm):(-1.0)  smooth kdensity bandwidth 5.0 with filledcurves y=0 lt 9,\
+     '' index 3 using ($2*meVincm):(1.0) smooth kdensity bandwidth 5.0 with filledcurves y=0 lt 10  
 # kdensity + impulses on x axis. a bit busy
 
 prefix="phonons"
@@ -44,14 +44,20 @@ load "gnuplot-render.gpt"
 
 pause -1
 
-set xrange [0:350]
-
+set xrange [0:50]
 
 set samples 1000
+
 set table $k1
-plot file index 0 using  ($2*meVincm):(1.0) smooth kdensity bandwidth 5. with filledcurves above y lt 9
+plot file index 2 using  ($2*meVincm):(1.0) smooth kdensity bandwidth 5. with filledcurves above y lt 9
+set table "CsPbBr3-kdensity.dat"
+replot
+
 set table $k2
-plot file index 2 using  ($2*meVincm):(1.0) smooth kdensity bandwidth 5. with filledcurves above y lt 10
+plot file index 3 using  ($2*meVincm):(1.0) smooth kdensity bandwidth 5. with filledcurves above y lt 10
+set table "MAPbI3-kdensity.dat"
+replot
+
 unset table
 
 unset key
@@ -80,8 +86,8 @@ plot $k1 using (1-$2):1 with filledcurve x=1 lt 9,\
 
 pause -1
 
-#replot file index 0 lt 9 using (0.9):($2*meVincm) w points, \
-#     file index 2 lt 10 using (1.1):($2*meVincm) w points
+#replot file index 2 lt 9 using (0.9):($2*meVincm) w points, \
+#     file index 3 lt 10 using (1.1):($2*meVincm) w points
 
 
 
