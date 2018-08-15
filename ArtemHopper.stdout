@@ -1,0 +1,249 @@
+
+
+Material: FAPbI
+[13.6862 3.80771e-6; 2.71936 0.0251287; 2.44753 0.163748; 2.27875 0.0467528; 1.97772 0.0119353; 1.95338 0.362802; 1.9398 0.0247184; 1.35987 0.277524; 1.10443 0.0124903; 0.985987 0.000128141; 0.888656 0.0215065; 0.783905 0.00456311; 0.738096 0.00418727]
+Hellwarth B Scheme... (athermal)
+Hellwarth (58) summation: 0.08210595444881363
+Hellwarth (59) summation (total ir activity ^2): 0.2396856766996193
+Hellwarth (59) W_e (total ir activity ): 0.489577038574747
+Hellwarth (61) Omega (freq): 1.7085736881568097
+Effective frequency: 1.7085736881568097
+
+
+Polaron mobility for system ε_Inf=5.612856777911748, ε_S=28.512856777911747, freq=1.7085736881568096e12,
+                 effectivemass=0.12; with Trange [300, 1000] ...
+Polaron mobility input parameters: ε_Inf=5.612857 ε_S=28.512857 freq=1.70857e+12 α=2.175110 
+Derived params in SI: ω =1.07353e+13 mb=1.09313e-31 
+T: 300.000000 β: 2.41e+20 βred: 0.273 ħω  = 7.07 meV		Converged? : true
+ Polaraon Parameters:  v= 25.5715  w= 22.5992  ||   M=0.280339  k=143.176233	
+ Polaron frequency (SI) v= 4.4e+13 Hz  w= 3.9e+13 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.517593 (int units) = 2.28905e-09 m [SI]
+ Polaron Free Energy: A= -6.082734 B= 7.599463 C= 3.005425 F= -4.522154	 = -31.953961 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.157979 m^2/Vs 	= 1579.79 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.028787 m^2/Vs 	= 287.87 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 3.181352 
+		Gamma0 = 3.97669e+13 rad/s = 6.32909e+12 /s  
+		Tau=1/Gamma0 = 1.58001e-13 = 0.158001 ps
+		Energy Loss = 7.16524e-09 J/s = 44.7219 meV/ps
+	μ(Hellwarth1999)= 0.018000 m^2/Vs 	= 180.00 cm^2/Vs
+T: 1000.000000 β: 7.24e+19 βred: 0.082 ħω  = 7.07 meV		Converged? : true
+ Polaraon Parameters:  v= 82.1436  w= 76.8750  ||   M=0.141766  k=837.802454	
+ Polaron frequency (SI) v= 1.4e+14 Hz  w= 1.3e+14 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.383497 (int units) = 1.69601e-09 m [SI]
+ Polaron Free Energy: A= 6.630335 B= 13.672323 C= 5.396300 F= -25.698957	 = -181.591208 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.511677 m^2/Vs 	= 5116.77 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.027971 m^2/Vs 	= 279.71 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 11.702177 
+		Gamma0 = 4.58936e+13 rad/s = 7.3042e+12 /s  
+		Tau=1/Gamma0 = 1.36908e-13 = 0.136908 ps
+		Energy Loss = 8.26917e-09 J/s = 51.6121 meV/ps
+	μ(Hellwarth1999)= 0.010647 m^2/Vs 	= 106.47 cm^2/Vs
+Phonon energies, in meV: [430.445, 430.184, 419.032, 414.425, 383.452, 215.373, 197.954, 188.11, 167.995, 163.97, 140.497, 123.721, 122.745, 84.1824, 71.0365, 63.4184, 62.4688, 56.6015, 11.2464, 10.1222, 9.42414, 8.17917, 8.07853, 8.02238, 5.62395, 4.56755, 4.07771, 3.67518, 3.24197, 3.05252]
+Sum of phonon energies, in meV: 3814.9221083459674
+BE thermal occupation of phonon states...
+[5.87281e-8, 5.93243e-8, 9.13243e-8, 1.09138e-7, 3.61658e-7, 0.000240993, 0.000472858, 0.000692141, 0.00150825, 0.00176273, 0.00438189, 0.00841812, 0.00874492, 0.0400741, 0.0684536, 0.0941205, 0.0979871, 0.1261, 1.83484, 2.08655, 2.27348, 2.68704, 2.72609, 2.74831, 4.11488, 5.17465, 5.85297, 6.54606, 7.48462, 7.97892]
+Sum: 303.5652913677318 meV
+Material: FAPbI α: Any[2.17511] Scatterτ: Any[0.158001, 0.136908] rfsi: Any[2.28905e-9, 1.69601e-9]
+
+
+Material: FAPbBr
+[11.9335 0.0001305; 3.42147 0.0397873; 3.0217 0.223459; 2.67881 0.0394293; 2.64848 0.0222516; 2.06847 0.411349; 1.51825 0.0163802; 1.427 0.00359147; 1.37833 0.147578; 1.2473 0.0171495; 1.12427 0.00932556; 1.05073 0.0116313; 1.01099 0.00694803; 0.554048 0.179339; 0.0267394 1.22979e-6; 0.0333413 1.04248e-6]
+Hellwarth B Scheme... (athermal)
+Hellwarth (58) summation: 0.16222798643500289
+Hellwarth (59) summation (total ir activity ^2): 0.2775619049543439
+Hellwarth (59) W_e (total ir activity ): 0.5268414419484708
+Hellwarth (61) Omega (freq): 1.3080280003946112
+Effective frequency: 1.3080280003946112
+
+
+Polaron mobility for system ε_Inf=4.16607909431454, ε_S=37.96220025043007, freq=1.308028000394611e12,
+                 effectivemass=0.144; with Trange [300, 1000] ...
+Polaron mobility input parameters: ε_Inf=4.166079 ε_S=37.962200 freq=1.30803e+12 α=4.066843 
+Derived params in SI: ω =8.21858e+12 mb=1.31175e-31 
+T: 300.000000 β: 2.41e+20 βred: 0.209 ħω  = 5.41 meV		Converged? : true
+ Polaraon Parameters:  v= 35.0700  w= 28.4205  ||   M=0.522678  k=422.180880	
+ Polaron frequency (SI) v= 4.6e+13 Hz  w= 3.7e+13 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.352992 (int units) = 1.36591e-09 m [SI]
+ Polaron Free Energy: A= -8.950038 B= 16.557689 C= 6.579766 F= -14.187417	 = -76.747807 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.087224 m^2/Vs 	= 872.24 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.012168 m^2/Vs 	= 121.68 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 4.296369 
+		Gamma0 = 6.59233e+13 rad/s = 1.0492e+13 /s  
+		Tau=1/Gamma0 = 9.53105e-14 = 0.095311 ps
+		Energy Loss = 9.09352e-09 J/s = 56.7573 meV/ps
+	μ(Hellwarth1999)= 0.007753 m^2/Vs 	= 77.53 cm^2/Vs
+T: 1000.000000 β: 7.24e+19 βred: 0.0628 ħω  = 5.41 meV		Converged? : true
+ Polaraon Parameters:  v= 100.0000  w= 88.3223  ||   M=0.281914  k=2199.162725	
+ Polaron frequency (SI) v= 1.3e+14 Hz  w= 1.2e+14 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.261166 (int units) = 1.01059e-09 m [SI]
+ Polaron Free Energy: A= 10.550160 B= 29.513849 C= 11.300950 F= -51.364959	 = -277.862274 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.321200 m^2/Vs 	= 3212.00 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.013442 m^2/Vs 	= 134.42 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 15.435046 
+		Gamma0 = 7.08804e+13 rad/s = 1.1281e+13 /s  
+		Tau=1/Gamma0 = 8.86448e-14 = 0.088645 ps
+		Energy Loss = 9.77731e-09 J/s = 61.0252 meV/ps
+	μ(Hellwarth1999)= 0.004947 m^2/Vs 	= 49.47 cm^2/Vs
+Phonon energies, in meV: [433.435, 432.524, 420.785, 415.819, 384.503, 216.38, 198.889, 186.767, 168.473, 163.843, 143.647, 123.361, 122.242, 84.3364, 71.4358, 63.0394, 60.9407, 49.353, 14.1501, 12.4967, 11.0786, 10.9532, 8.55451, 6.27897, 5.90161, 5.70033, 5.15842, 4.6496, 4.34546, 4.18113, 2.29136, 0.110585, 0.137889]
+Sum of phonon energies, in meV: 3835.7620800867685
+BE thermal occupation of phonon states...
+[5.23146e-8, 5.41898e-8, 8.5337e-8, 1.03408e-7, 3.47245e-7, 0.000231785, 0.000456047, 0.000729065, 0.00148055, 0.00177149, 0.00387726, 0.00853731, 0.00891821, 0.0398266, 0.0673337, 0.0956433, 0.104578, 0.174012, 1.37237, 1.60883, 1.8691, 1.89542, 2.54956, 3.63746, 3.89951, 4.05354, 4.52823, 5.07503, 5.4632, 5.6965, 10.7898, 233.275, 186.985]
+Sum: 375.2551389127629 meV
+Material: FAPbBr α: Any[4.06684] Scatterτ: Any[0.0953105, 0.0886448] rfsi: Any[1.36591e-9, 1.01059e-9]
+
+
+Material: MAPbBr
+[9.85372 0.00908628; 4.7696 0.0341104; 4.50293 0.0780907; 3.28492 0.0118429; 3.1755 0.0834581; 2.78543 0.168785; 2.48968 0.321103; 2.2273 0.0302687; 2.18547 0.359763; 1.87478 0.0270758; 1.42681 0.0043434; 1.28486 0.00653878; 1.24559 0.000739516; 1.1907 0.0175048; 0.874114 0.00154221; 0.566693 0.0120999]
+Hellwarth B Scheme... (athermal)
+Hellwarth (58) summation: 0.04956485515364659
+Hellwarth (59) summation (total ir activity ^2): 0.2776419161562069
+Hellwarth (59) W_e (total ir activity ): 0.5269173712796029
+Hellwarth (61) Omega (freq): 2.3667674937201335
+Effective frequency: 2.3667674937201335
+
+
+Polaron mobility for system ε_Inf=4.16607909431454, ε_S=20.06607909431454, freq=2.3667674937201333e12,
+                 effectivemass=0.144; with Trange [300, 1000] ...
+Polaron mobility input parameters: ε_Inf=4.166079 ε_S=20.066079 freq=2.36677e+12 α=2.690960 
+Derived params in SI: ω =1.48708e+13 mb=1.31175e-31 
+T: 300.000000 β: 2.41e+20 βred: 0.379 ħω  = 9.79 meV		Converged? : true
+ Polaraon Parameters:  v= 19.1812  w= 15.9578  ||   M=0.444807  k=113.270042	
+ Polaron frequency (SI) v= 4.5e+13 Hz  w= 3.8e+13 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.503995 (int units) = 2.62333e-09 m [SI]
+ Polaron Free Energy: A= -6.824183 B= 8.112880 C= 3.215474 F= -4.504171	 = -44.087556 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.052031 m^2/Vs 	= 520.31 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.013133 m^2/Vs 	= 131.33 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 2.172629 
+		Gamma0 = 6.43684e+13 rad/s = 1.02445e+13 /s  
+		Tau=1/Gamma0 = 9.76129e-14 = 0.097613 ps
+		Energy Loss = 1.60659e-08 J/s = 100.275 meV/ps
+	μ(Hellwarth1999)= 0.009453 m^2/Vs 	= 94.53 cm^2/Vs
+T: 1000.000000 β: 7.24e+19 βred: 0.114 ħω  = 9.79 meV		Converged? : true
+ Polaraon Parameters:  v= 59.9643  w= 54.3289  ||   M=0.218213  k=644.083325	
+ Polaron frequency (SI) v= 1.4e+14 Hz  w= 1.3e+14 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.373698 (int units) = 1.94513e-09 m [SI]
+ Polaron Free Energy: A= -1.418102 B= 14.478560 C= 5.708117 F= -18.768575	 = -183.709873 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.168529 m^2/Vs 	= 1685.29 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.012762 m^2/Vs 	= 127.62 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 8.313304 
+		Gamma0 = 7.8564e+13 rad/s = 1.25039e+13 /s  
+		Tau=1/Gamma0 = 7.99753e-14 = 0.079975 ps
+		Energy Loss = 1.9609e-08 J/s = 122.39 meV/ps
+	μ(Hellwarth1999)= 0.005769 m^2/Vs 	= 57.69 cm^2/Vs
+Phonon energies, in meV: [392.095, 390.404, 384.726, 382.417, 381.985, 369.897, 195.607, 191.572, 184.639, 177.47, 176.558, 172.175, 154.227, 151.545, 126.11, 113.905, 110.45, 40.7517, 19.7255, 18.6226, 13.5853, 13.1328, 11.5196, 10.2965, 9.21139, 9.03838, 7.75345, 5.90082, 5.31376, 5.15136, 4.92433, 3.61504, 2.34365]
+Sum of phonon energies, in meV: 4236.667423977959
+BE thermal occupation of phonon states...
+[2.58882e-7, 2.76382e-7, 3.44266e-7, 3.76434e-7, 3.82778e-7, 6.10948e-7, 0.000517822, 0.000605347, 0.000791686, 0.00104494, 0.00108251, 0.00128278, 0.00257165, 0.0028536, 0.00766939, 0.0123541, 0.0141458, 0.260604, 0.873567, 0.947723, 1.44653, 1.51066, 1.78119, 2.04386, 2.33616, 2.38932, 2.85922, 3.90009, 4.38222, 4.53508, 4.76572, 6.66289, 10.5382]
+Sum: 339.48009825872697 meV
+Material: MAPbBr α: Any[2.69096] Scatterτ: Any[0.0976129, 0.0799753] rfsi: Any[2.62333e-9, 1.94513e-9]
+
+
+Material: MAPbI
+[9.50645 0.000743955; 3.99416 0.0855428; 3.89258 0.00767111; 3.51905 0.0583233; 2.7455 0.026911; 2.42881 0.234367; 2.24749 0.273156; 2.06786 0.21592; 1.97204 0.0670051; 1.74944 0.0495305; 1.0358 0.010939; 0.981422 0.00516854; 0.977232 0.00904607; 0.861877 0.0136762; 0.799877 0.00134674; 0.559693 0.00717601]
+Hellwarth B Scheme... (athermal)
+Hellwarth (58) summation: 0.038418995868558195
+Hellwarth (59) summation (total ir activity ^2): 0.19507775741502473
+Hellwarth (59) W_e (total ir activity ): 0.4416760774764972
+Hellwarth (61) Omega (freq): 2.253361512488168
+Effective frequency: 2.253361512488168
+
+
+Polaron mobility for system ε_Inf=5.612856777911748, ε_S=21.01285677791175, freq=2.253361512488168e12,
+                 effectivemass=0.12; with Trange [300, 1000] ...
+Polaron mobility input parameters: ε_Inf=5.612857 ε_S=21.012857 freq=2.25336e+12 α=1.728318 
+Derived params in SI: ω =1.41583e+13 mb=1.09313e-31 
+T: 300.000000 β: 2.41e+20 βred: 0.36 ħω  = 9.32 meV		Converged? : true
+ Polaraon Parameters:  v= 19.3631  w= 17.3211  ||   M=0.249678  k=74.908609	
+ Polaron frequency (SI) v= 4.4e+13 Hz  w= 3.9e+13 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.622683 (int units) = 3.16251e-09 m [SI]
+ Polaron Free Energy: A= -5.545917 B= 5.249964 C= 2.075510 F= -1.779557	 = -16.583966 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.129581 m^2/Vs 	= 1295.81 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.031141 m^2/Vs 	= 311.41 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 2.304050 
+		Gamma0 = 3.76625e+13 rad/s = 5.99417e+12 /s  
+		Tau=1/Gamma0 = 1.66829e-13 = 0.166829 ps
+		Energy Loss = 8.94985e-09 J/s = 55.8606 meV/ps
+	μ(Hellwarth1999)= 0.020509 m^2/Vs 	= 205.09 cm^2/Vs
+T: 1000.000000 β: 7.24e+19 βred: 0.108 ħω  = 9.32 meV		Converged? : true
+ Polaraon Parameters:  v= 62.0842  w= 58.4507  ||   M=0.128195  k=437.974279	
+ Polaron frequency (SI) v= 1.4e+14 Hz  w= 1.3e+14 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.461118 (int units) = 2.34195e-09 m [SI]
+ Polaron Free Energy: A= 1.566104 B= 9.447857 C= 3.727682 F= -14.741643	 = -137.379632 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.387036 m^2/Vs 	= 3870.36 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.027904 m^2/Vs 	= 279.04 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 8.755926 
+		Gamma0 = 4.65579e+13 rad/s = 7.40992e+12 /s  
+		Tau=1/Gamma0 = 1.34954e-13 = 0.134954 ps
+		Energy Loss = 1.10637e-08 J/s = 69.0541 meV/ps
+	μ(Hellwarth1999)= 0.011821 m^2/Vs 	= 118.21 cm^2/Vs
+Phonon energies, in meV: [397.869, 385.187, 384.119, 382.442, 381.592, 369.714, 193.907, 191.964, 182.119, 177.399, 176.478, 171.505, 153.379, 151.084, 124.906, 113.144, 108.97, 39.3155, 16.5185, 16.0984, 14.5536, 11.3545, 10.0448, 9.29486, 8.552, 8.1557, 7.23512, 4.28372, 4.05884, 4.04151, 3.56444, 3.30803, 2.3147]
+Sum of phonon energies, in meV: 4208.470446434779
+BE thermal occupation of phonon states...
+[2.07065e-7, 3.38185e-7, 3.52445e-7, 3.7606e-7, 3.88641e-7, 6.153e-7, 0.00055304, 0.000596219, 0.000872798, 0.00104783, 0.00108587, 0.0013165, 0.00265769, 0.00290513, 0.0080382, 0.0127281, 0.0149915, 0.279655, 1.11792, 1.15744, 1.323, 1.8133, 2.10598, 2.31122, 2.55044, 2.69606, 3.09642, 5.54875, 5.8824, 5.90966, 6.76425, 7.3256, 10.6761]
+Sum: 347.27059434616854 meV
+Material: MAPbI α: Any[1.72832] Scatterτ: Any[0.166829, 0.134954] rfsi: Any[3.16251e-9, 2.34195e-9]
+
+
+Material: CsPbBr
+Hellwarth B Scheme... (athermal)
+Hellwarth (58) summation: 0.028541922275188897
+Hellwarth (59) summation (total ir activity ^2): 0.2676155156300759
+Hellwarth (59) W_e (total ir activity ): 0.5173156827606098
+Hellwarth (61) Omega (freq): 3.0620623877854523
+Effective frequency: 3.0620623877854523
+
+
+Polaron mobility for system ε_Inf=4.16607909431454, ε_S=14.16607909431454, freq=3.062062387785452e12,
+                 effectivemass=0.144; with Trange [300, 1000] ...
+Polaron mobility input parameters: ε_Inf=4.166079 ε_S=14.166079 freq=3.06206e+12 α=2.107627 
+Derived params in SI: ω =1.92395e+13 mb=1.31175e-31 
+T: 300.000000 β: 2.41e+20 βred: 0.49 ħω  = 12.7 meV		Converged? : true
+ Polaraon Parameters:  v= 14.7016  w= 12.5101  ||   M=0.381045  k=59.634559	
+ Polaron frequency (SI) v= 4.5e+13 Hz  w= 3.8e+13 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.608105 (int units) = 3.60027e-09 m [SI]
+ Polaron Free Energy: A= -5.750019 B= 5.568739 C= 2.201907 F= -2.020627	 = -25.588558 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.047594 m^2/Vs 	= 475.94 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.015543 m^2/Vs 	= 155.43 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 1.582091 
+		Gamma0 = 5.69017e+13 rad/s = 9.05619e+12 /s  
+		Tau=1/Gamma0 = 1.10422e-13 = 0.110422 ps
+		Energy Loss = 1.83745e-08 J/s = 114.685 meV/ps
+	μ(Hellwarth1999)= 0.011358 m^2/Vs 	= 113.58 cm^2/Vs
+T: 1000.000000 β: 7.24e+19 βred: 0.147 ħω  = 12.7 meV		Converged? : true
+ Polaraon Parameters:  v= 46.4247  w= 42.5706  ||   M=0.189265  k=342.995743	
+ Polaron frequency (SI) v= 1.4e+14 Hz  w= 1.3e+14 Hz
+ Polaron size (rf), following Schultz1959. (s.d. of Gaussian polaron ψ )
+	 Schultz1959(2.4): rf= 0.450584 (int units) = 2.66767e-09 m [SI]
+ Polaron Free Energy: A= -3.214845 B= 9.945935 C= 3.928838 F= -10.659928	 = -134.993824 meV
+ Polaron Mobility theories:
+	μ(FHIP)= 0.137855 m^2/Vs 	= 1378.55 cm^2/Vs
+	μ(Kadanoff,via Devreese2016)= 0.013506 m^2/Vs 	= 135.06 cm^2/Vs
+		Eqm. Phonon. pop. Nbar: 6.317016 
+		Gamma0 = 7.60439e+13 rad/s = 1.21028e+13 /s  
+		Tau=1/Gamma0 = 8.26258e-14 = 0.082626 ps
+		Energy Loss = 2.45558e-08 J/s = 153.265 meV/ps
+	μ(Hellwarth1999)= 0.006637 m^2/Vs 	= 66.37 cm^2/Vs
+Phonon energies, in meV: [12.7192, 12.718, 12.7145, 4.78792, 4.78652, 4.78597, 2.35681, 2.35668, 2.35659]
+Sum of phonon energies, in meV: 59.58215663069391
+BE thermal occupation of phonon states...
+[1.57335, 1.57355, 1.5741, 4.91485, 4.91643, 4.91705, 10.4767, 10.4773, 10.4777]
+Sum: 204.71003899157847 meV
+Material: CsPbBr α: Any[2.10763] Scatterτ: Any[0.110422, 0.0826258] rfsi: Any[3.60027e-9, 2.66767e-9]
