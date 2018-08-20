@@ -4,7 +4,7 @@
 
 # This file, when run under Julia, should regenerate polaron data associated with Tom Hopper / Artem Bakulin's paper on cooling of Perovskites. 
 
-push!(LOAD_PATH,"../PolaronMobility.jl/src/") # load module from local directory
+push!(LOAD_PATH,"/home/jarvist/.julia/v0.6/PolaronMobility/src/") # load module from local directory
 
 using PolaronMobility 
 using PlotPolaron # Plots dependency
